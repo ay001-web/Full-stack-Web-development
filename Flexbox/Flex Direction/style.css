@@ -1,0 +1,35 @@
+.container {
+    color: white;
+    border: 5px solid gold;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/*
+Select all the elements that are the direct children of the .container class.
+*/
+
+.container > * {
+    flex-basis: 100px;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orangered;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.indigo {
+    background-color: indigo;
+}
+.purple {
+    background-color: purple;
+}
