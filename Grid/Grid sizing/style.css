@@ -2,6 +2,29 @@
     display: grid;
     grid-template-columns: 200px auto;
     grid-template-rows:repeat(2,200px);
+    gap: 10px;
 
 
+}
+.first {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+.second {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+
+}
+.third {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+.fourth {
+    height: 200px;
+    width: 200px;
+    
+    background-color: blue;
 }
