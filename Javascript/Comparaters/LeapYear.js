@@ -1,4 +1,4 @@
-var year = 2004;
+var year = 2222;
 function isLeap(year) {
     
 if(year%4===0){
@@ -18,3 +18,4 @@ if(year%4===0){
         return"Not leap year.";
     }
 }
+console.log(isLeap(year));
