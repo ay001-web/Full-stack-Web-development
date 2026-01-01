@@ -1,15 +1,21 @@
 {
   "name": "full-stack-web-development",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository contains my Frontend and Full Stack Web Development learning",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Ayush Yadav",
   "license": "ISC",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "inquirer": "^13.1.0",
+    "prompt-sync": "^4.2.0",
+    "qr-image": "^3.2.0"
   }
 }
